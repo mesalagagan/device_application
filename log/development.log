@@ -1,0 +1,2583 @@
+Started GET "/" for ::1 at 2020-07-13 17:27:59 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb (2.5ms)
+Completed 200 OK in 16ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 17:45:00 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb (2.8ms)
+Completed 200 OK in 16ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 17:45:01 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 12ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 17:45:01 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 11ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 17:45:01 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb (2.9ms)
+Completed 200 OK in 13ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 17:50:09 +0530
+  
+PG::ConnectionBad (could not connect to server: Connection refused
+	Is the server running on host "localhost" (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused
+	Is the server running on host "localhost" (127.0.0.1) and accepting
+	TCP/IP connections on port 5432?
+):
+  
+pg (1.2.3) lib/pg.rb:58:in `initialize'
+pg (1.2.3) lib/pg.rb:58:in `new'
+pg (1.2.3) lib/pg.rb:58:in `connect'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/postgresql_adapter.rb:692:in `connect'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:830:in `new_connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:874:in `checkout_new_connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `try_to_checkout_new_connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:814:in `acquire_connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:538:in `checkout'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:1033:in `retrieve_connection'
+activerecord (5.2.4.3) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.4.3) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.4.3) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-07-13 17:50:47 +0530
+  
+ActiveRecord::NoDatabaseError (FATAL:  role "gagan" does not exist
+):
+  
+activerecord (5.2.4.3) lib/active_record/connection_adapters/postgresql_adapter.rb:696:in `rescue in connect'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/postgresql_adapter.rb:691:in `connect'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:830:in `new_connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:874:in `checkout_new_connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `try_to_checkout_new_connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:814:in `acquire_connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:538:in `checkout'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:1033:in `retrieve_connection'
+activerecord (5.2.4.3) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.4.3) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.4.3) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-07-13 17:56:57 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb (3.9ms)
+Completed 200 OK in 19ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (19.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (4.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7402141516191769515)[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+Migrating to CreateUsers (20200713122726)
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (12.8ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "email" character varying NOT NULL, "encrypted_password" character varying(128) NOT NULL, "confirmation_token" character varying(128), "remember_token" character varying(128) NOT NULL)[0m
+  ↳ db/migrate/20200713122726_create_users.rb:3
+  [1m[35m (2.3ms)[0m  [1m[35mCREATE  INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  ↳ db/migrate/20200713122726_create_users.rb:11
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE  INDEX  "index_users_on_remember_token" ON "users"  ("remember_token")[0m
+  ↳ db/migrate/20200713122726_create_users.rb:12
+  [1m[36mActiveRecord::SchemaMigration Create (3.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200713122726"]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Create (1.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-07-13 12:29:50.688787"], ["updated_at", "2020-07-13 12:29:50.688787"]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(7402141516191769515)[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+Started GET "/" for ::1 at 2020-07-13 18:01:45 +0530
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb (4.2ms)
+Completed 200 OK in 20ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 18:01:46 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb (3.1ms)
+Completed 200 OK in 14ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 18:01:46 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 12ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 18:01:46 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 12ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 18:01:46 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb (2.8ms)
+Completed 200 OK in 12ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 18:03:20 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 13ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 18:03:21 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb (3.1ms)
+Completed 200 OK in 14ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 18:03:21 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb (3.4ms)
+Completed 200 OK in 13ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 18:03:21 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb (3.8ms)
+Completed 200 OK in 13ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 18:03:21 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 12ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 18:03:21 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 13ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 18:03:21 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 12ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 18:04:30 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/clearance-2.2.0/app/views/sessions/new.html.erb within layouts/application
+  Rendered /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/clearance-2.2.0/app/views/sessions/_form.html.erb (11.2ms)
+  Rendered /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/clearance-2.2.0/app/views/sessions/new.html.erb within layouts/application (31.7ms)
+Completed 200 OK in 1263ms (Views: 1262.3ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7402141516191769515)[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+Migrating to AddUsernameToUsers (20200713123607)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (3.4ms)[0m  [1m[35mALTER TABLE "users" ADD "username" character varying[0m
+  ↳ db/migrate/20200713123607_add_username_to_users.rb:3
+  [1m[35m (1.8ms)[0m  [1m[35mCREATE  INDEX  "index_users_on_username" ON "users"  ("username")[0m
+  ↳ db/migrate/20200713123607_add_username_to_users.rb:4
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200713123607"]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (1.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(7402141516191769515)[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+Started GET "/sign_in" for ::1 at 2020-07-13 18:06:56 +0530
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (9.2ms)
+  Rendered sessions/new.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 246ms (Views: 241.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 18:06:57 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (1.6ms)
+  Rendered sessions/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_up" for ::1 at 2020-07-13 18:07:00 +0530
+Processing by Clearance::UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.6ms)
+  Rendered users/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 71ms (Views: 39.5ms | ActiveRecord: 9.3ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 18:07:03 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (1.8ms)
+  Rendered sessions/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 18:07:12 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (2.1ms)
+  Rendered sessions/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 42ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_up" for ::1 at 2020-07-13 18:07:13 +0530
+Processing by Clearance::UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.6ms)
+  Rendered users/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 18:07:14 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (1.8ms)
+  Rendered sessions/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_up" for ::1 at 2020-07-13 18:07:15 +0530
+Processing by Clearance::UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.8ms)
+  Rendered users/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 44ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 18:10:47 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/sign_in"):
+  
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/sign_up" for ::1 at 2020-07-13 18:10:51 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/sign_up"):
+  
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-07-13 18:11:03 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb (2.8ms)
+Completed 200 OK in 12ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 18:11:06 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/sign_in"):
+  
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/sign_up" for ::1 at 2020-07-13 18:11:14 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/sign_up"):
+  
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/signup" for ::1 at 2020-07-13 18:11:47 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/signup"):
+  
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/signup" for ::1 at 2020-07-13 18:13:06 +0530
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/signup"):
+  
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/sign_up" for ::1 at 2020-07-13 18:13:10 +0530
+Processing by Clearance::UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (171.9ms)
+Completed 500 Internal Server Error in 221ms (ActiveRecord: 11.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00007fb4d1c7e3f8>:0x00007fb4d1c7c648>):
+    1: <div id="clearance" class="sign-up">
+    2:   <h2><%= t(".title") %></h2>
+    3: 
+    4:   <%= form_for @user do |form| %>
+    5:     <%= render partial: '/users/form', object: form %>
+    6: 
+    7:     <div class="submit-field">
+  
+app/views/users/new.html.erb:4:in `_app_views_users_new_html_erb__2104299143379456532_70207270344780'
+Started GET "/sign_in" for ::1 at 2020-07-13 18:13:14 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (3.4ms)
+  Rendered sessions/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 243ms (Views: 241.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_up" for ::1 at 2020-07-13 18:13:16 +0530
+Processing by Clearance::UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (138.4ms)
+Completed 500 Internal Server Error in 159ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00007fb4d1c7e3f8>:0x00007fb4d41a0848>):
+    1: <div id="clearance" class="sign-up">
+    2:   <h2><%= t(".title") %></h2>
+    3: 
+    4:   <%= form_for @user do |form| %>
+    5:     <%= render partial: '/users/form', object: form %>
+    6: 
+    7:     <div class="submit-field">
+  
+app/views/users/new.html.erb:4:in `_app_views_users_new_html_erb__2104299143379456532_70207310690520'
+Started GET "/signup" for ::1 at 2020-07-13 18:13:22 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/signup"):
+  
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/signup" for ::1 at 2020-07-13 18:14:32 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/signup"):
+  
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/signup" for ::1 at 2020-07-13 18:14:47 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/users/signup"):
+  
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-07-13 18:20:50 +0530
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/railties-5.2.4.3/lib/rails/templates/rails/welcome/index.html.erb (3.6ms)
+Completed 200 OK in 25ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 18:21:31 +0530
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  Rendered devices/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5845ms (Views: 5838.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 18:21:40 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (8.7ms)
+  Rendered sessions/new.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 49ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_up" for ::1 at 2020-07-13 18:21:42 +0530
+Processing by Clearance::UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (159.0ms)
+Completed 500 Internal Server Error in 198ms (ActiveRecord: 8.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00007fe2ff7c5170>:0x00007fe2ff7bf360>):
+    1: <div id="clearance" class="sign-up">
+    2:   <h2><%= t(".title") %></h2>
+    3: 
+    4:   <%= form_for @user do |form| %>
+    5:     <%= render partial: '/users/form', object: form %>
+    6: 
+    7:     <div class="submit-field">
+  
+app/views/users/new.html.erb:4:in `_app_views_users_new_html_erb__1634047544050461905_70306462822360'
+Started GET "/sign_in" for ::1 at 2020-07-13 18:21:51 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (1.7ms)
+  Rendered sessions/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 47ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/passwords/new" for ::1 at 2020-07-13 18:21:53 +0530
+Processing by Clearance::PasswordsController#new as HTML
+  Rendering passwords/new.html.erb within layouts/application
+  Rendered passwords/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 38ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_up" for ::1 at 2020-07-13 18:21:55 +0530
+Processing by Clearance::UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (149.5ms)
+Completed 500 Internal Server Error in 170ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `users_path' for #<#<Class:0x00007fe2ff7c5170>:0x00007fe300901dd0>):
+    1: <div id="clearance" class="sign-up">
+    2:   <h2><%= t(".title") %></h2>
+    3: 
+    4:   <%= form_for @user do |form| %>
+    5:     <%= render partial: '/users/form', object: form %>
+    6: 
+    7:     <div class="submit-field">
+  
+app/views/users/new.html.erb:4:in `_app_views_users_new_html_erb__1634047544050461905_70306471823580'
+Started GET "/sign_up" for ::1 at 2020-07-13 18:23:39 +0530
+  
+SyntaxError (/Users/gaganmesala/Workspace/device_application/config/routes.rb:12: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...sswords, controller: "clearance/passwords", only: [:create, ...
+...                      ^~~~~~~~~
+/Users/gaganmesala/Workspace/device_application/config/routes.rb:12: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...ntroller: "clearance/passwords", only: [:create, :new]
+...                              ^
+/Users/gaganmesala/Workspace/device_application/config/routes.rb:13: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...session, controller: "clearance/sessions", only: [:create]
+...                      ^~~~~~~~~
+/Users/gaganmesala/Workspace/device_application/config/routes.rb:13: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...ontroller: "clearance/sessions", only: [:create]
+...                              ^
+/Users/gaganmesala/Workspace/device_application/config/routes.rb:16: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  get "/sign_in" => "clearance/sessions#new",...
+               ^
+/Users/gaganmesala/Workspace/device_application/config/routes.rb:16: syntax error, unexpected tIDENTIFIER, expecting end-of-input
+  get "/sign_in" => "clearance/sessions#new", as: "sign_in"
+                     ^~~~~~~~~):
+  
+config/routes.rb:12: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+config/routes.rb:12: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+config/routes.rb:13: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+config/routes.rb:13: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+config/routes.rb:16: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+config/routes.rb:16: syntax error, unexpected tIDENTIFIER, expecting end-of-input
+Started GET "/sign_up" for ::1 at 2020-07-13 18:24:41 +0530
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by Clearance::UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (7.2ms)
+  Rendered users/new.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 297ms (Views: 264.1ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 18:24:42 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (346.0ms)
+  Rendered sessions/new.html.erb within layouts/application (349.6ms)
+Completed 500 Internal Server Error in 375ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_password_path' for #<#<Class:0x00007fd34cc9f5f0>:0x00007fd34fdafcf8>):
+    17:     <% if Clearance.configuration.allow_sign_up? %>
+    18:       <%= link_to t(".sign_up"), sign_up_path %>
+    19:     <% end %>
+    20:     <%= link_to t(".forgot_password"), new_password_path %>
+    21:   </div>
+    22: <% end %>
+  
+app/views/sessions/_form.html.erb:20:in `block in _app_views_sessions__form_html_erb___509733781835142651_70272751531700'
+app/views/sessions/_form.html.erb:1:in `_app_views_sessions__form_html_erb___509733781835142651_70272751531700'
+app/views/sessions/new.html.erb:4:in `_app_views_sessions_new_html_erb__4130345051980365721_70272777286820'
+Started GET "/sign_in" for ::1 at 2020-07-13 18:25:21 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (2.0ms)
+  Rendered sessions/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 56ms (Views: 55.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_up" for ::1 at 2020-07-13 18:25:22 +0530
+Processing by Clearance::UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (8.2ms)
+  Rendered users/new.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 92ms (Views: 90.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 18:25:24 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (4.3ms)
+  Rendered sessions/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 83ms (Views: 80.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 18:25:27 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (1.7ms)
+  Rendered sessions/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 52ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 18:25:28 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (2.2ms)
+  Rendered sessions/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 18:25:29 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (1.7ms)
+  Rendered sessions/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 55ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 18:25:29 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (1.5ms)
+  Rendered sessions/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 48ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_up" for ::1 at 2020-07-13 18:25:30 +0530
+Processing by Clearance::UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (2.0ms)
+  Rendered users/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 18:25:31 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (2.3ms)
+  Rendered sessions/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 78ms (Views: 77.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_up" for ::1 at 2020-07-13 18:25:32 +0530
+Processing by Clearance::UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.3ms)
+  Rendered users/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 50ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_up" for ::1 at 2020-07-13 18:27:39 +0530
+Processing by Clearance::UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.5ms)
+  Rendered users/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 45ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 18:27:40 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (1.8ms)
+  Rendered sessions/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 64ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 18:27:42 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  Rendered devices/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 49ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 18:27:44 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (1.4ms)
+  Rendered sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 18:29:49 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  Rendered devices/index.html.erb within layouts/application (13.2ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial devices/_navigation, application/_navigation with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/gaganmesala/Workspace/device_application/app/views"
+  * "/Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/clearance-2.2.0/app/views"
+):
+    1: <%= render partial: 'navigation' %>
+  
+app/views/devices/index.html.erb:1:in `_app_views_devices_index_html_erb__4539035419156504557_70272758819520'
+Started GET "/" for ::1 at 2020-07-13 18:30:13 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  Rendered devices/index.html.erb within layouts/application (11.9ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial devices/_navigation.html.erb, application/_navigation.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/gaganmesala/Workspace/device_application/app/views"
+  * "/Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/clearance-2.2.0/app/views"
+):
+    1: <%= render partial: 'navigation.html.erb' %>
+  
+app/views/devices/index.html.erb:1:in `_app_views_devices_index_html_erb__4539035419156504557_70272777305440'
+Started GET "/" for ::1 at 2020-07-13 18:30:43 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  Rendered devices/index.html.erb within layouts/application (11.1ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial devices/_navigation, application/_navigation with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/gaganmesala/Workspace/device_application/app/views"
+  * "/Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/clearance-2.2.0/app/views"
+):
+    1: <%= render 'navigation' %>
+  
+app/views/devices/index.html.erb:1:in `_app_views_devices_index_html_erb__4539035419156504557_70272760902200'
+Started GET "/" for ::1 at 2020-07-13 18:31:25 +0530
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  Rendered devices/index.html.erb within layouts/application (11.5ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial devices/_navigation, application/_navigation with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/gaganmesala/Workspace/device_application/app/views"
+  * "/Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/clearance-2.2.0/app/views"
+):
+    1: <%= render 'navigation' %>
+  
+app/views/devices/index.html.erb:1:in `_app_views_devices_index_html_erb___1967552874849108960_70174431090660'
+Started GET "/" for ::1 at 2020-07-13 18:32:25 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  Rendered devices/index.html.erb within layouts/application (12.6ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial devices/__navigation, application/__navigation with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/gaganmesala/Workspace/device_application/app/views"
+  * "/Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/clearance-2.2.0/app/views"
+):
+    1: <%= render '_navigation' %>
+  
+app/views/devices/index.html.erb:1:in `_app_views_devices_index_html_erb___1967552874849108960_70174460140520'
+Started GET "/" for ::1 at 2020-07-13 18:33:45 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  Rendered devices/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 271ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial devices/__navigation, application/__navigation with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/gaganmesala/Workspace/device_application/app/views"
+  * "/Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/clearance-2.2.0/app/views"
+):
+    23:     <% end %>
+    24:   </div> -->
+    25:   
+    26:   <%= render '_navigation' %>
+    27:   <%= yield %>
+    28:   </body>
+    29: </html>
+  
+app/views/layouts/application.html.erb:26:in `_app_views_layouts_application_html_erb___3864827708522162668_70174442066780'
+Started GET "/" for ::1 at 2020-07-13 18:34:27 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  Rendered devices/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial devices/_navigation, application/_navigation with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/gaganmesala/Workspace/device_application/app/views"
+  * "/Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/clearance-2.2.0/app/views"
+):
+    23:     <% end %>
+    24:   </div> -->
+    25:   
+    26:   <%= render "navigation" %>
+    27:   <%= yield %>
+    28:   </body>
+    29: </html>
+  
+app/views/layouts/application.html.erb:26:in `_app_views_layouts_application_html_erb___3864827708522162668_70174468437960'
+Started GET "/" for ::1 at 2020-07-13 18:34:41 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  Rendered devices/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial application/_navigation with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/gaganmesala/Workspace/device_application/app/views"
+  * "/Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/clearance-2.2.0/app/views"
+):
+    23:     <% end %>
+    24:   </div> -->
+    25:   
+    26:   <%= render "application/navigation" %>
+    27:   <%= yield %>
+    28:   </body>
+    29: </html>
+  
+app/views/layouts/application.html.erb:26:in `_app_views_layouts_application_html_erb___3864827708522162668_70174445869760'
+Started GET "/" for ::1 at 2020-07-13 18:36:02 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  Rendered devices/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+Completed 200 OK in 41ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 18:36:04 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (6.3ms)
+  Rendered sessions/new.html.erb within layouts/application (10.3ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_up" for ::1 at 2020-07-13 18:36:06 +0530
+Processing by Clearance::UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.9ms)
+  Rendered users/new.html.erb within layouts/application (9.3ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+Completed 200 OK in 86ms (Views: 49.2ms | ActiveRecord: 10.6ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 18:36:08 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (2.1ms)
+  Rendered sessions/new.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+Completed 200 OK in 54ms (Views: 52.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_up" for ::1 at 2020-07-13 18:36:09 +0530
+Processing by Clearance::UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (3.2ms)
+  Rendered users/new.html.erb within layouts/application (9.4ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+Completed 200 OK in 75ms (Views: 72.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 18:36:10 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (1.9ms)
+  Rendered sessions/new.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+Completed 200 OK in 49ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_up" for ::1 at 2020-07-13 18:36:13 +0530
+Processing by Clearance::UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (2.5ms)
+  Rendered users/new.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+Completed 200 OK in 54ms (Views: 53.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_up" for ::1 at 2020-07-13 18:40:50 +0530
+Processing by Clearance::UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.6ms)
+  Rendered users/new.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+Completed 200 OK in 46ms (Views: 45.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 18:40:52 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  Rendered devices/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.7ms)
+Completed 200 OK in 52ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 18:40:53 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (1.0ms)
+  Rendered sessions/new.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/gaganmesala/Workspace/device_application/app/views/sessions/_form.html.erb:5: syntax error, unexpected '='
+...d :email, type: 'email', class="form-control" id="exampleInp...
+...                              ^
+/Users/gaganmesala/Workspace/device_application/app/views/sessions/_form.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting ')'
+...email', class="form-control" id="exampleInputEmail1" aria-de...
+...                             ^~
+/Users/gaganmesala/Workspace/device_application/app/views/sessions/_form.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting ')'
+...l" id="exampleInputEmail1" aria-describedby="emailHelp" );@o...
+...                           ^~~~
+/Users/gaganmesala/Workspace/device_application/app/views/sessions/_form.html.erb:9: syntax error, unexpected '='
+...assword_field :password, class="form-control" id="exampleInp...
+...                              ^
+/Users/gaganmesala/Workspace/device_application/app/views/sessions/_form.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ssword, class="form-control" id="exampleInputPassword1" );@o...
+...                             ^~
+/Users/gaganmesala/Workspace/device_application/app/views/sessions/_form.html.erb:13: syntax error, unexpected '='
+...er.append=( form.submit, class="btn btn-primary" );@output_b...
+...                              ^):
+  
+app/views/sessions/_form.html.erb:5: syntax error, unexpected '='
+app/views/sessions/_form.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/sessions/_form.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/sessions/_form.html.erb:9: syntax error, unexpected '='
+app/views/sessions/_form.html.erb:9: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/sessions/_form.html.erb:13: syntax error, unexpected '='
+app/views/sessions/new.html.erb:4:in `_app_views_sessions_new_html_erb___2256720225962263827_70174460528680'
+Started GET "/sign_in" for ::1 at 2020-07-13 18:41:09 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (330.7ms)
+  Rendered sessions/new.html.erb within layouts/application (333.4ms)
+Completed 500 Internal Server Error in 352ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_password_path' for #<#<Class:0x00007fa584374980>:0x00007fa584524ed8>):
+    17:     <% if Clearance.configuration.allow_sign_up? %>
+    18:       <%= link_to t(".sign_up"), sign_up_path %>
+    19:     <% end %>
+    20:     <%= link_to t(".forgot_password"), new_password_path %>
+    21:   </div>
+    22: <% end %>
+  
+app/views/sessions/_form.html.erb:20:in `block in _app_views_sessions__form_html_erb__1491885144546945413_70174463676720'
+app/views/sessions/_form.html.erb:1:in `_app_views_sessions__form_html_erb__1491885144546945413_70174463676720'
+app/views/sessions/new.html.erb:4:in `_app_views_sessions_new_html_erb___2256720225962263827_70174463712420'
+Started GET "/sign_in" for ::1 at 2020-07-13 18:41:18 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (2.2ms)
+  Rendered sessions/new.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+Completed 200 OK in 53ms (Views: 52.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_up" for ::1 at 2020-07-13 18:41:20 +0530
+Processing by Clearance::UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.5ms)
+  Rendered users/new.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+Completed 200 OK in 51ms (Views: 49.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_up" for ::1 at 2020-07-13 18:41:45 +0530
+Processing by Clearance::UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.9ms)
+  Rendered users/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 50ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 18:41:48 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  Rendered devices/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 54ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 18:41:49 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (2.8ms)
+  Rendered sessions/new.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 89ms (Views: 87.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_up" for ::1 at 2020-07-13 18:41:50 +0530
+Processing by Clearance::UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.6ms)
+  Rendered users/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 69ms (Views: 67.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2020-07-13 18:42:24 +0530
+Processing by Clearance::UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "user"=>{"username"=>"Gagan", "email"=>"gagan@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign up"}
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 6.3ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+activemodel (5.2.4.3) lib/active_model/forbidden_attributes_protection.rb:23:in `sanitize_for_mass_assignment'
+activemodel (5.2.4.3) lib/active_model/attribute_assignment.rb:35:in `assign_attributes'
+activerecord (5.2.4.3) lib/active_record/core.rb:315:in `initialize'
+activerecord (5.2.4.3) lib/active_record/inheritance.rb:66:in `new'
+activerecord (5.2.4.3) lib/active_record/inheritance.rb:66:in `new'
+clearance (2.2.0) app/controllers/clearance/users_controller.rb:37:in `user_from_params'
+clearance (2.2.0) app/controllers/clearance/users_controller.rb:11:in `create'
+actionpack (5.2.4.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.4.3) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.4.3) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.4.3) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.4.3) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.4.3) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.4.3) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.4.3) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.4.3) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.4.3) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.4.3) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.4.3) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.4.3) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.4.3) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.4.3) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.4.3) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.4.3) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.3) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.3) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.3) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+clearance (2.2.0) lib/clearance/rack_session.rb:23:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.4.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/sign_up" for ::1 at 2020-07-13 18:44:25 +0530
+Processing by Clearance::UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.6ms)
+  Rendered users/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 54ms (Views: 36.3ms | ActiveRecord: 6.5ms)
+
+
+Started POST "/users" for ::1 at 2020-07-13 18:44:33 +0530
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "user"=>{"username"=>"Gagan", "email"=>"gagan@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Exists (1.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER($1) LIMIT $2[0m  [["email", "gagan@gmail.com"], ["LIMIT", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Gagan"], ["LIMIT", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("created_at", "updated_at", "email", "encrypted_password", "remember_token", "username") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2020-07-13 13:14:33.676567"], ["updated_at", "2020-07-13 13:14:33.676567"], ["email", "gagan@gmail.com"], ["encrypted_password", "$2a$12$3cSmu4HRGL0xeKKleiMaze..6dirPceQRtvp2nP/d/8uDO0QC3w/S"], ["remember_token", "2a45834af4572c30b69c05bc2d39b1067f260cb3"], ["username", "Gagan"]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 519ms (ActiveRecord: 7.3ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 18:44:33 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  Rendered devices/index.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "2a45834af4572c30b69c05bc2d39b1067f260cb3"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 39ms (Views: 34.2ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/sign_out" for ::1 at 2020-07-13 18:44:40 +0530
+Processing by Clearance::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "2a45834af4572c30b69c05bc2d39b1067f260cb3"], ["LIMIT", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Update (2.0ms)[0m  [1m[33mUPDATE "users" SET "remember_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["remember_token", "fdf6b5210cc7550be65654db21584e86fc5393c4"], ["updated_at", "2020-07-13 13:14:40.818474"], ["id", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/sign_in
+Completed 302 Found in 9ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 18:44:40 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (1.8ms)
+  Rendered sessions/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 41ms (Views: 40.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/session" for ::1 at 2020-07-13 18:44:51 +0530
+Processing by Clearance::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "session"=>{"email"=>"gagan@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "gagan@gmail.com"], ["LIMIT", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 248ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 18:44:51 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  Rendered devices/index.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "fdf6b5210cc7550be65654db21584e86fc5393c4"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 32ms (Views: 29.5ms | ActiveRecord: 0.6ms)
+
+
+Started DELETE "/sign_out" for ::1 at 2020-07-13 18:44:54 +0530
+Processing by Clearance::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "fdf6b5210cc7550be65654db21584e86fc5393c4"], ["LIMIT", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Update (1.0ms)[0m  [1m[33mUPDATE "users" SET "remember_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["remember_token", "ee26f489e1d9e7ae355de5cfc055735e6235fcc8"], ["updated_at", "2020-07-13 13:14:54.789415"], ["id", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/sign_in
+Completed 302 Found in 30ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 18:44:54 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (1.6ms)
+  Rendered sessions/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 52ms (Views: 51.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_up" for ::1 at 2020-07-13 18:44:56 +0530
+Processing by Clearance::UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.7ms)
+  Rendered users/new.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 66ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 18:45:00 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (2.6ms)
+  Rendered sessions/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 48ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/session" for ::1 at 2020-07-13 18:45:09 +0530
+Processing by Clearance::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "session"=>{"email"=>"gagan@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "gagan@gmail.com"], ["LIMIT", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 244ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 18:45:09 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  Rendered devices/index.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "ee26f489e1d9e7ae355de5cfc055735e6235fcc8"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 29ms (Views: 26.7ms | ActiveRecord: 0.4ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7402141516191769515)[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+Migrating to CreateDevices (20200713132657)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (6.0ms)[0m  [1m[35mCREATE TABLE "devices" ("id" bigserial primary key, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20200713132657_create_devices.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200713132657"]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(7402141516191769515)[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/bin/rake:23
+Started GET "/" for ::1 at 2020-07-13 18:58:16 +0530
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  Rendered devices/index.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "ee26f489e1d9e7ae355de5cfc055735e6235fcc8"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 309ms (Views: 290.0ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 18:58:18 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  Rendered devices/index.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "ee26f489e1d9e7ae355de5cfc055735e6235fcc8"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 40ms (Views: 36.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 18:58:18 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  Rendered devices/index.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "ee26f489e1d9e7ae355de5cfc055735e6235fcc8"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 40ms (Views: 34.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 18:58:18 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  Rendered devices/index.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "ee26f489e1d9e7ae355de5cfc055735e6235fcc8"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 37ms (Views: 32.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 18:58:18 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  Rendered devices/index.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "ee26f489e1d9e7ae355de5cfc055735e6235fcc8"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 41ms (Views: 37.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 18:58:21 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  Rendered devices/index.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "ee26f489e1d9e7ae355de5cfc055735e6235fcc8"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 43ms (Views: 37.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 19:00:34 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  [1m[36mDevice Load (0.8ms)[0m  [1m[34mSELECT "devices".* FROM "devices"[0m
+  ↳ app/views/devices/index.html.erb:11
+  Rendered devices/index.html.erb within layouts/application (4.6ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "ee26f489e1d9e7ae355de5cfc055735e6235fcc8"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 42ms (Views: 35.7ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/devices/new" for ::1 at 2020-07-13 19:00:36 +0530
+Processing by DevicesController#new as HTML
+Completed 406 Not Acceptable in 217ms (ActiveRecord: 6.1ms)
+
+
+  
+ActionController::UnknownFormat (DevicesController#new is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.4.3) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.4.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.4.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.4.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.4.3) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.4.3) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.4.3) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.4.3) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.4.3) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.4.3) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.4.3) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.4.3) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.4.3) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.4.3) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.4.3) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.4.3) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.4.3) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.4.3) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.4.3) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.4.3) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.3) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.3) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.3) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+clearance (2.2.0) lib/clearance/rack_session.rb:23:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.4.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-07-13 19:00:39 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  [1m[36mDevice Load (0.4ms)[0m  [1m[34mSELECT "devices".* FROM "devices"[0m
+  ↳ app/views/devices/index.html.erb:11
+  Rendered devices/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "ee26f489e1d9e7ae355de5cfc055735e6235fcc8"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 44ms (Views: 38.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 19:02:37 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  [1m[36mDevice Load (0.5ms)[0m  [1m[34mSELECT "devices".* FROM "devices"[0m
+  ↳ app/views/devices/index.html.erb:11
+  Rendered devices/index.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "ee26f489e1d9e7ae355de5cfc055735e6235fcc8"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 44ms (Views: 39.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/devices/new" for ::1 at 2020-07-13 19:02:39 +0530
+Processing by DevicesController#new as HTML
+Completed 406 Not Acceptable in 214ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (DevicesController#new is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.4.3) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.4.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.4.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.4.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.4.3) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.4.3) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.4.3) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.4.3) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.4.3) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.4.3) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.4.3) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.4.3) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.4.3) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.4.3) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.4.3) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.4.3) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.4.3) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.4.3) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.4.3) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.4.3) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.3) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.3) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.3) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+clearance (2.2.0) lib/clearance/rack_session.rb:23:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.4.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/devices/new" for ::1 at 2020-07-13 19:04:38 +0530
+Processing by DevicesController#new as HTML
+Completed 406 Not Acceptable in 227ms (ActiveRecord: 5.5ms)
+
+
+  
+ActionController::UnknownFormat (DevicesController#new is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.4.3) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.4.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.4.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.4.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.4.3) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.4.3) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.4.3) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.4.3) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.4.3) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.4.3) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.4.3) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.4.3) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.4.3) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.4.3) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.4.3) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.4.3) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.4.3) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.4.3) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.4.3) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.4.3) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.3) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.3) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.3) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+clearance (2.2.0) lib/clearance/rack_session.rb:23:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.4.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-07-13 19:06:14 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  [1m[36mDevice Load (0.4ms)[0m  [1m[34mSELECT "devices".* FROM "devices"[0m
+  ↳ app/views/devices/index.html.erb:11
+  Rendered devices/index.html.erb within layouts/application (3.8ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "ee26f489e1d9e7ae355de5cfc055735e6235fcc8"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 55ms (Views: 41.7ms | ActiveRecord: 9.1ms)
+
+
+Started GET "/devices/new" for ::1 at 2020-07-13 19:06:15 +0530
+Processing by DevicesController#new as HTML
+Completed 406 Not Acceptable in 269ms (ActiveRecord: 8.8ms)
+
+
+  
+ActionController::UnknownFormat (DevicesController#new is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.4.3) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.4.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.4.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.4.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.4.3) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.4.3) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.4.3) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.4.3) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.4.3) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.4.3) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.4.3) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.4.3) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.4.3) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.4.3) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.4.3) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.4.3) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.4.3) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.4.3) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.4.3) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.4.3) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.3) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.3) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.3) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+clearance (2.2.0) lib/clearance/rack_session.rb:23:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.4.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/devices/new" for ::1 at 2020-07-13 19:07:29 +0530
+Processing by DevicesController#new as HTML
+  Rendering devices/new.html.erb within layouts/application
+  Rendered devices/_form.html.erb (20.3ms)
+  Rendered devices/new.html.erb within layouts/application (23.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "ee26f489e1d9e7ae355de5cfc055735e6235fcc8"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 74ms (Views: 69.0ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/devices" for ::1 at 2020-07-13 19:07:36 +0530
+Processing by DevicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "device"=>{"name"=>"Test Device"}, "commit"=>"Create Device"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/devices_controller.rb:27
+  [1m[36mDevice Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "devices" WHERE "devices"."name" = $1 LIMIT $2[0m  [["name", "Test Device"], ["LIMIT", 1]]
+  ↳ app/controllers/devices_controller.rb:27
+  [1m[36mDevice Create (1.1ms)[0m  [1m[32mINSERT INTO "devices" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Test Device"], ["created_at", "2020-07-13 13:37:36.679670"], ["updated_at", "2020-07-13 13:37:36.679670"]]
+  ↳ app/controllers/devices_controller.rb:27
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/devices_controller.rb:27
+Redirected to http://localhost:3000/devices/1
+Completed 302 Found in 9ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/devices/1" for ::1 at 2020-07-13 19:07:36 +0530
+Processing by DevicesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDevice Load (0.4ms)[0m  [1m[34mSELECT  "devices".* FROM "devices" WHERE "devices"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/devices_controller.rb:56
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/show.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "ee26f489e1d9e7ae355de5cfc055735e6235fcc8"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 43ms (Views: 36.9ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/sign_out" for ::1 at 2020-07-13 19:07:40 +0530
+Processing by Clearance::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "ee26f489e1d9e7ae355de5cfc055735e6235fcc8"], ["LIMIT", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Update (0.8ms)[0m  [1m[33mUPDATE "users" SET "remember_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["remember_token", "8117d5498b9a04f90c4ca070bb372cba1e578a63"], ["updated_at", "2020-07-13 13:37:41.011028"], ["id", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/sign_in
+Completed 302 Found in 7ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 19:07:41 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (2.8ms)
+  Rendered sessions/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 46ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/session" for ::1 at 2020-07-13 19:07:48 +0530
+Processing by Clearance::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "session"=>{"email"=>"gagan@test.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "gagan@test.com"], ["LIMIT", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (1.6ms)
+  Rendered sessions/new.html.erb within layouts/application (4.9ms)
+Completed 401 Unauthorized in 53ms (Views: 48.7ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/session" for ::1 at 2020-07-13 19:07:55 +0530
+Processing by Clearance::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "session"=>{"email"=>"gagan@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "gagan@gmail.com"], ["LIMIT", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 245ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 19:07:55 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  [1m[36mDevice Load (0.4ms)[0m  [1m[34mSELECT "devices".* FROM "devices"[0m
+  ↳ app/views/devices/index.html.erb:11
+  Rendered devices/index.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "8117d5498b9a04f90c4ca070bb372cba1e578a63"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 41ms (Views: 37.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 19:09:41 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  [1m[36mDevice Load (0.5ms)[0m  [1m[34mSELECT "devices".* FROM "devices"[0m
+  ↳ app/views/devices/index.html.erb:11
+  Rendered devices/index.html.erb within layouts/application (2.3ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "8117d5498b9a04f90c4ca070bb372cba1e578a63"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 46ms (Views: 41.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/devices/1" for ::1 at 2020-07-13 19:09:49 +0530
+Processing by DevicesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDevice Load (2.2ms)[0m  [1m[34mSELECT  "devices".* FROM "devices" WHERE "devices"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/devices_controller.rb:56
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/show.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "8117d5498b9a04f90c4ca070bb372cba1e578a63"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 41ms (Views: 33.6ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/devices" for ::1 at 2020-07-13 19:09:51 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  [1m[36mDevice Load (0.5ms)[0m  [1m[34mSELECT "devices".* FROM "devices"[0m
+  ↳ app/views/devices/index.html.erb:11
+  Rendered devices/index.html.erb within layouts/application (2.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "8117d5498b9a04f90c4ca070bb372cba1e578a63"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 49ms (Views: 43.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/devices/new" for ::1 at 2020-07-13 19:09:52 +0530
+Processing by DevicesController#new as HTML
+  Rendering devices/new.html.erb within layouts/application
+  Rendered devices/_form.html.erb (1.8ms)
+  Rendered devices/new.html.erb within layouts/application (4.5ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "8117d5498b9a04f90c4ca070bb372cba1e578a63"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 52ms (Views: 42.7ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/devices" for ::1 at 2020-07-13 19:10:37 +0530
+Processing by DevicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "device"=>{"name"=>"Test Device 2"}, "commit"=>"Create Device"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/devices_controller.rb:27
+  [1m[36mDevice Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "devices" WHERE "devices"."name" = $1 LIMIT $2[0m  [["name", "Test Device 2"], ["LIMIT", 1]]
+  ↳ app/controllers/devices_controller.rb:27
+  [1m[36mDevice Create (0.4ms)[0m  [1m[32mINSERT INTO "devices" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Test Device 2"], ["created_at", "2020-07-13 13:40:37.371216"], ["updated_at", "2020-07-13 13:40:37.371216"]]
+  ↳ app/controllers/devices_controller.rb:27
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/devices_controller.rb:27
+Redirected to http://localhost:3000/devices/2
+Completed 302 Found in 7ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/devices/2" for ::1 at 2020-07-13 19:10:37 +0530
+Processing by DevicesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mDevice Load (0.5ms)[0m  [1m[34mSELECT  "devices".* FROM "devices" WHERE "devices"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/devices_controller.rb:56
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/show.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "8117d5498b9a04f90c4ca070bb372cba1e578a63"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 38ms (Views: 33.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/devices/2" for ::1 at 2020-07-13 19:11:43 +0530
+Processing by DevicesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mDevice Load (0.5ms)[0m  [1m[34mSELECT  "devices".* FROM "devices" WHERE "devices"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/devices_controller.rb:56
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/show.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "8117d5498b9a04f90c4ca070bb372cba1e578a63"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 44ms (Views: 39.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/devices" for ::1 at 2020-07-13 19:11:58 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  [1m[36mDevice Load (0.5ms)[0m  [1m[34mSELECT "devices".* FROM "devices"[0m
+  ↳ app/views/devices/index.html.erb:11
+  Rendered devices/index.html.erb within layouts/application (2.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "8117d5498b9a04f90c4ca070bb372cba1e578a63"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 51ms (Views: 29.8ms | ActiveRecord: 0.8ms)
+
+
+Started DELETE "/sign_out" for ::1 at 2020-07-13 19:17:49 +0530
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by Clearance::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "8117d5498b9a04f90c4ca070bb372cba1e578a63"], ["LIMIT", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Update (0.8ms)[0m  [1m[33mUPDATE "users" SET "remember_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["remember_token", "0a056558d0230a9a0737735cd22597d2e1dedf28"], ["updated_at", "2020-07-13 13:47:49.796551"], ["id", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/sign_in
+Completed 302 Found in 42ms (ActiveRecord: 11.1ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 19:17:49 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (7.9ms)
+  Rendered sessions/new.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 252ms (Views: 251.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/session" for ::1 at 2020-07-13 19:17:51 +0530
+Processing by Clearance::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "session"=>{"email"=>"gagan@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "gagan@gmail.com"], ["LIMIT", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 258ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 19:17:51 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  [1m[36mDevice Load (0.7ms)[0m  [1m[34mSELECT "devices".* FROM "devices"[0m
+  ↳ app/views/devices/index.html.erb:11
+  Rendered devices/index.html.erb within layouts/application (171.2ms)
+Completed 500 Internal Server Error in 181ms (ActiveRecord: 4.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `device_path' for #<#<Class:0x00007f9d3fcf75b8>:0x00007f9d43c07be0>):
+    11:   <% @devices.each do |device| %>
+    12:     <tr>
+    13:       <td><%= device.name %></td>
+    14:       <td><%= link_to ' | Show', device %></td>
+    15:       <td><%= link_to ' | Edit', edit_device_path(device) %></td>
+    16:       <td><%= link_to ' | Destroy', device, :confirm => 'Are you sure?', :method => :delete %></td>
+    17:     </tr>
+  
+app/views/devices/index.html.erb:14:in `block in _app_views_devices_index_html_erb__3304570709923764305_70156683346400'
+app/views/devices/index.html.erb:11:in `_app_views_devices_index_html_erb__3304570709923764305_70156683346400'
+Started GET "/" for ::1 at 2020-07-13 19:18:19 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  [1m[36mDevice Load (0.4ms)[0m  [1m[34mSELECT "devices".* FROM "devices"[0m
+  ↳ app/views/devices/index.html.erb:11
+  Rendered devices/index.html.erb within layouts/application (180.2ms)
+Completed 500 Internal Server Error in 194ms (ActiveRecord: 6.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `device_path' for #<#<Class:0x00007f9d42fa8ca0>:0x00007f9d42f9abf0>):
+    11:   <% @devices.each do |device| %>
+    12:     <tr>
+    13:       <td><%= device.name %></td>
+    14:       <td><%= link_to ' | Show', device %></td>
+    15:       <td><%= link_to ' | Edit', edit_device_path(device) %></td>
+    16:       <td><%= link_to ' | Destroy', device, :confirm => 'Are you sure?', :method => :delete %></td>
+    17:     </tr>
+  
+app/views/devices/index.html.erb:14:in `block in _app_views_devices_index_html_erb__3304570709923764305_70156705156080'
+app/views/devices/index.html.erb:11:in `_app_views_devices_index_html_erb__3304570709923764305_70156705156080'
+Started GET "/" for ::1 at 2020-07-13 19:18:20 +0530
+Started GET "/" for ::1 at 2020-07-13 19:18:20 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  [1m[36mDevice Load (0.7ms)[0m  [1m[34mSELECT "devices".* FROM "devices"[0m
+  ↳ app/views/devices/index.html.erb:11
+  Rendered devices/index.html.erb within layouts/application (145.6ms)
+Completed 500 Internal Server Error in 157ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `device_path' for #<#<Class:0x00007f9d42fa8ca0>:0x00007f9d45047b00>):
+    11:   <% @devices.each do |device| %>
+    12:     <tr>
+    13:       <td><%= device.name %></td>
+    14:       <td><%= link_to ' | Show', device %></td>
+    15:       <td><%= link_to ' | Edit', edit_device_path(device) %></td>
+    16:       <td><%= link_to ' | Destroy', device, :confirm => 'Are you sure?', :method => :delete %></td>
+    17:     </tr>
+  
+app/views/devices/index.html.erb:14:in `block in _app_views_devices_index_html_erb__3304570709923764305_70156712403500'
+app/views/devices/index.html.erb:11:in `_app_views_devices_index_html_erb__3304570709923764305_70156712403500'
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  [1m[36mDevice Load (1.0ms)[0m  [1m[34mSELECT "devices".* FROM "devices"[0m
+  ↳ app/views/devices/index.html.erb:11
+  Rendered devices/index.html.erb within layouts/application (152.1ms)
+Completed 500 Internal Server Error in 161ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `device_path' for #<#<Class:0x00007f9d42fa8ca0>:0x00007f9d42ad4b98>):
+    11:   <% @devices.each do |device| %>
+    12:     <tr>
+    13:       <td><%= device.name %></td>
+    14:       <td><%= link_to ' | Show', device %></td>
+    15:       <td><%= link_to ' | Edit', edit_device_path(device) %></td>
+    16:       <td><%= link_to ' | Destroy', device, :confirm => 'Are you sure?', :method => :delete %></td>
+    17:     </tr>
+  
+app/views/devices/index.html.erb:14:in `block in _app_views_devices_index_html_erb__3304570709923764305_70156712403500'
+app/views/devices/index.html.erb:11:in `_app_views_devices_index_html_erb__3304570709923764305_70156712403500'
+Started GET "/" for ::1 at 2020-07-13 19:18:40 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  [1m[36mDevice Load (0.7ms)[0m  [1m[34mSELECT "devices".* FROM "devices"[0m
+  ↳ app/views/devices/index.html.erb:11
+  Rendered devices/index.html.erb within layouts/application (186.3ms)
+Completed 500 Internal Server Error in 205ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `device_path' for #<#<Class:0x00007f9d42fa8ca0>:0x00007f9d438a1118>):
+    11:   <% @devices.each do |device| %>
+    12:     <tr>
+    13:       <td><%= device.name %></td>
+    14:       <td><%= link_to ' | Show', device %></td>
+    15:       <td><%= link_to ' | Edit', edit_device_path(device) %></td>
+    16:       <td><%= link_to ' |Destroy', device, :confirm => 'Are you sure?', :method => :delete %></td>
+    17:     </tr>
+  
+app/views/devices/index.html.erb:14:in `block in _app_views_devices_index_html_erb__3304570709923764305_70156709860320'
+app/views/devices/index.html.erb:11:in `_app_views_devices_index_html_erb__3304570709923764305_70156709860320'
+Started GET "/" for ::1 at 2020-07-13 19:19:10 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  [1m[36mDevice Load (0.5ms)[0m  [1m[34mSELECT "devices".* FROM "devices"[0m
+  ↳ app/views/devices/index.html.erb:11
+  Rendered devices/index.html.erb within layouts/application (16.9ms)
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "0a056558d0230a9a0737735cd22597d2e1dedf28"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 72ms (Views: 51.2ms | ActiveRecord: 16.7ms)
+
+
+Started GET "/devices/new" for ::1 at 2020-07-13 19:19:13 +0530
+Processing by DevicesController#new as HTML
+  Rendering devices/new.html.erb within layouts/application
+  Rendered devices/_form.html.erb (8.4ms)
+  Rendered devices/new.html.erb within layouts/application (12.2ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "0a056558d0230a9a0737735cd22597d2e1dedf28"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 59ms (Views: 50.3ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/devices" for ::1 at 2020-07-13 19:19:17 +0530
+Processing by DevicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "device"=>{"name"=>"Test Device 3"}, "commit"=>"Create Device"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/devices_controller.rb:27
+  [1m[36mDevice Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "devices" WHERE "devices"."name" = $1 LIMIT $2[0m  [["name", "Test Device 3"], ["LIMIT", 1]]
+  ↳ app/controllers/devices_controller.rb:27
+  [1m[36mDevice Create (1.2ms)[0m  [1m[32mINSERT INTO "devices" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Test Device 3"], ["created_at", "2020-07-13 13:49:17.700545"], ["updated_at", "2020-07-13 13:49:17.700545"]]
+  ↳ app/controllers/devices_controller.rb:27
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/devices_controller.rb:27
+Redirected to http://localhost:3000/devices/3
+Completed 302 Found in 9ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/devices/3" for ::1 at 2020-07-13 19:19:17 +0530
+Processing by DevicesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mDevice Load (0.7ms)[0m  [1m[34mSELECT  "devices".* FROM "devices" WHERE "devices"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/devices_controller.rb:56
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/show.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "0a056558d0230a9a0737735cd22597d2e1dedf28"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 40ms (Views: 33.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/devices" for ::1 at 2020-07-13 19:19:20 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  [1m[36mDevice Load (0.6ms)[0m  [1m[34mSELECT "devices".* FROM "devices"[0m
+  ↳ app/views/devices/index.html.erb:11
+  Rendered devices/index.html.erb within layouts/application (3.1ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "0a056558d0230a9a0737735cd22597d2e1dedf28"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 42ms (Views: 36.7ms | ActiveRecord: 1.1ms)
+
+
+Started DELETE "/sign_out" for ::1 at 2020-07-13 19:19:24 +0530
+Processing by Clearance::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "0a056558d0230a9a0737735cd22597d2e1dedf28"], ["LIMIT", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Update (0.8ms)[0m  [1m[33mUPDATE "users" SET "remember_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["remember_token", "2df7ee1b5b44ac34bd3a0d9c756a4b2189d417fd"], ["updated_at", "2020-07-13 13:49:24.027700"], ["id", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/sign_in
+Completed 302 Found in 22ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 19:19:24 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (1.4ms)
+  Rendered sessions/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 41ms (Views: 40.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/session" for ::1 at 2020-07-13 19:19:26 +0530
+Processing by Clearance::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "session"=>{"email"=>"gagan@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "gagan@gmail.com"], ["LIMIT", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 245ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 19:19:27 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  [1m[36mDevice Load (0.4ms)[0m  [1m[34mSELECT "devices".* FROM "devices"[0m
+  ↳ app/views/devices/index.html.erb:11
+  Rendered devices/index.html.erb within layouts/application (2.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "2df7ee1b5b44ac34bd3a0d9c756a4b2189d417fd"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 31ms (Views: 27.2ms | ActiveRecord: 0.9ms)
+
+
+Started DELETE "/sign_out" for ::1 at 2020-07-13 19:19:28 +0530
+Processing by Clearance::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "2df7ee1b5b44ac34bd3a0d9c756a4b2189d417fd"], ["LIMIT", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Update (0.7ms)[0m  [1m[33mUPDATE "users" SET "remember_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["remember_token", "008cb6cd0fb5afeea0d341fe3414006ea4acd068"], ["updated_at", "2020-07-13 13:49:28.965363"], ["id", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/sign_in
+Completed 302 Found in 35ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 19:19:29 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (1.5ms)
+  Rendered sessions/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 44ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 19:20:11 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (1.8ms)
+  Rendered sessions/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 85ms (Views: 84.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/session" for ::1 at 2020-07-13 19:20:12 +0530
+Processing by Clearance::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "session"=>{"email"=>"gagan@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "gagan@gmail.com"], ["LIMIT", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 252ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 19:20:13 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  [1m[36mDevice Load (0.4ms)[0m  [1m[34mSELECT "devices".* FROM "devices"[0m
+  ↳ app/views/devices/index.html.erb:11
+  Rendered devices/index.html.erb within layouts/application (2.6ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "008cb6cd0fb5afeea0d341fe3414006ea4acd068"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 31ms (Views: 28.1ms | ActiveRecord: 0.8ms)
+
+
+Started DELETE "/sign_out" for ::1 at 2020-07-13 19:20:15 +0530
+Processing by Clearance::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "008cb6cd0fb5afeea0d341fe3414006ea4acd068"], ["LIMIT", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Update (0.8ms)[0m  [1m[33mUPDATE "users" SET "remember_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["remember_token", "ca57a683c0f5191c52832034ae35da5dbe2d5801"], ["updated_at", "2020-07-13 13:50:15.971773"], ["id", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/sign_in
+Completed 302 Found in 30ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 19:20:16 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (1.6ms)
+  Rendered sessions/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 33ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/session" for ::1 at 2020-07-13 19:20:16 +0530
+Processing by Clearance::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "session"=>{"email"=>"gagan@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "gagan@gmail.com"], ["LIMIT", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 257ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 19:20:17 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  [1m[36mDevice Load (0.5ms)[0m  [1m[34mSELECT "devices".* FROM "devices"[0m
+  ↳ app/views/devices/index.html.erb:11
+  Rendered devices/index.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "ca57a683c0f5191c52832034ae35da5dbe2d5801"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 31ms (Views: 28.6ms | ActiveRecord: 0.9ms)
+
+
+Started DELETE "/sign_out" for ::1 at 2020-07-13 19:20:18 +0530
+Processing by Clearance::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "ca57a683c0f5191c52832034ae35da5dbe2d5801"], ["LIMIT", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Update (0.9ms)[0m  [1m[33mUPDATE "users" SET "remember_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["remember_token", "649ae2a4c707e6d6783bd641d66cd46c9a33d75e"], ["updated_at", "2020-07-13 13:50:18.825569"], ["id", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/sign_in
+Completed 302 Found in 25ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/sign_in" for ::1 at 2020-07-13 19:20:18 +0530
+Processing by Clearance::SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/_form.html.erb (3.7ms)
+  Rendered sessions/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 50ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/session" for ::1 at 2020-07-13 19:20:33 +0530
+Processing by Clearance::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "session"=>{"email"=>"gagan@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "gagan@gmail.com"], ["LIMIT", 1]]
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 238ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 19:20:33 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  [1m[36mDevice Load (0.5ms)[0m  [1m[34mSELECT "devices".* FROM "devices"[0m
+  ↳ app/views/devices/index.html.erb:11
+  Rendered devices/index.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "649ae2a4c707e6d6783bd641d66cd46c9a33d75e"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 22ms (Views: 18.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-13 19:44:32 +0530
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/gaganmesala/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  [1m[36mDevice Load (0.9ms)[0m  [1m[34mSELECT "devices".* FROM "devices"[0m
+  ↳ app/views/devices/index.html.erb:11
+  Rendered devices/index.html.erb within layouts/application (21.1ms)
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "649ae2a4c707e6d6783bd641d66cd46c9a33d75e"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 338ms (Views: 311.3ms | ActiveRecord: 14.6ms)
+
+
+Started GET "/devices/1" for ::1 at 2020-07-13 19:44:34 +0530
+Processing by DevicesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDevice Load (0.4ms)[0m  [1m[34mSELECT  "devices".* FROM "devices" WHERE "devices"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/devices_controller.rb:57
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/show.html.erb within layouts/application (1.1ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "649ae2a4c707e6d6783bd641d66cd46c9a33d75e"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 59ms (Views: 51.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/devices" for ::1 at 2020-07-13 19:44:35 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  [1m[36mDevice Load (0.5ms)[0m  [1m[34mSELECT "devices".* FROM "devices"[0m
+  ↳ app/views/devices/index.html.erb:11
+  Rendered devices/index.html.erb within layouts/application (3.3ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "649ae2a4c707e6d6783bd641d66cd46c9a33d75e"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 43ms (Views: 37.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/devices/1/edit" for ::1 at 2020-07-13 19:44:36 +0530
+Processing by DevicesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDevice Load (0.5ms)[0m  [1m[34mSELECT  "devices".* FROM "devices" WHERE "devices"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/devices_controller.rb:57
+  [1m[36mCACHE Device Load (0.0ms)[0m  [1m[34mSELECT  "devices".* FROM "devices" WHERE "devices"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/devices_controller.rb:20
+  Rendering devices/edit.html.erb within layouts/application
+  Rendered devices/_form.html.erb (25.6ms)
+  Rendered devices/edit.html.erb within layouts/application (29.9ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "649ae2a4c707e6d6783bd641d66cd46c9a33d75e"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 68ms (Views: 58.9ms | ActiveRecord: 1.0ms)
+
+
+Started PATCH "/devices/1" for ::1 at 2020-07-13 19:44:39 +0530
+Processing by DevicesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"[FILTERED]", "device"=>{"name"=>"Test Devicesdd"}, "commit"=>"Update Device", "id"=>"1"}
+  [1m[36mDevice Load (0.5ms)[0m  [1m[34mSELECT  "devices".* FROM "devices" WHERE "devices"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/devices_controller.rb:57
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/devices_controller.rb:37
+  [1m[36mDevice Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "devices" WHERE "devices"."name" = $1 AND "devices"."id" != $2 LIMIT $3[0m  [["name", "Test Devicesdd"], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/devices_controller.rb:37
+  [1m[36mDevice Update (0.7ms)[0m  [1m[33mUPDATE "devices" SET "name" = $1, "updated_at" = $2 WHERE "devices"."id" = $3[0m  [["name", "Test Devicesdd"], ["updated_at", "2020-07-13 14:14:39.424180"], ["id", 1]]
+  ↳ app/controllers/devices_controller.rb:37
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/devices_controller.rb:37
+Redirected to http://localhost:3000/devices/1
+Completed 302 Found in 11ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/devices/1" for ::1 at 2020-07-13 19:44:39 +0530
+Processing by DevicesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDevice Load (0.5ms)[0m  [1m[34mSELECT  "devices".* FROM "devices" WHERE "devices"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/devices_controller.rb:57
+  Rendering devices/show.html.erb within layouts/application
+  Rendered devices/show.html.erb within layouts/application (1.1ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "649ae2a4c707e6d6783bd641d66cd46c9a33d75e"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 55ms (Views: 50.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/devices" for ::1 at 2020-07-13 19:44:40 +0530
+Processing by DevicesController#index as HTML
+  Rendering devices/index.html.erb within layouts/application
+  [1m[36mDevice Load (1.3ms)[0m  [1m[34mSELECT "devices".* FROM "devices"[0m
+  ↳ app/views/devices/index.html.erb:11
+  Rendered devices/index.html.erb within layouts/application (4.5ms)
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."remember_token" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["remember_token", "649ae2a4c707e6d6783bd641d66cd46c9a33d75e"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:13
+Completed 200 OK in 48ms (Views: 41.1ms | ActiveRecord: 2.0ms)
+
+
